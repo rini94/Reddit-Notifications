@@ -1,0 +1,16 @@
+{
+    "bot_token": "xxx",
+    "channel_id": "xxx",
+    "any_keywords": [
+        "anime",
+        "manga",
+        "television"
+    ],
+    "definite_keywords": [
+        "one",
+        "piece"
+    ],
+    "run": "true",
+    "subreddit": "OnePiece",
+    "last_fetch_time": "1614440558"
+}
