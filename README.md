@@ -4,13 +4,15 @@ The script can be run in the background using Linux crontab or online using serv
 
 `reddit-notifications-config.json` contains the configurations needed to run the script.
 
+### Cron job configuration example
+
 To edit crontab use
 
 ```
 crontab -e
 ```
 
-add the line to execute the script every 10 minutes from tuesday to thursday.
+Add the line to execute the script every 10 minutes from tuesday to thursday.
 
 ```
 */10 * * * 2-4 python <location>/reddit-notifications.py
